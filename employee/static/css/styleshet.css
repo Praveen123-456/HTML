@@ -1,0 +1,61 @@
+body{
+    background-image: url("../images/third.png");
+    background-repeat: no-repeat;
+    background-size: 1365px 650px;
+}
+input{
+    color:#fff;
+}
+#n1{
+    position: fixed;
+    margin-top: 186px;
+    margin-left: 600px;
+    height:32px;
+    border: none;
+    background: transparent;
+    text-align: center;
+   
+}
+#n1:hover{
+    border: none;
+    background: transparent;
+}
+#t1{
+    position: fixed;
+    margin-top: 256px;
+    margin-left: 600px;
+    height:32px;
+    border: none;
+    background: transparent;
+    text-align: center;
+}
+#t1:hover{
+    border: none;
+    background: transparent;
+}
+#s1{
+    position: fixed;
+    margin-top: 335px;
+    margin-left: 600px;
+    height:32px;
+    border: none;
+    background: transparent;
+    text-align: center;
+}
+#s1:hover{
+    border: none;
+    background: transparent;
+}
+#su{
+    position: fixed;
+    margin-top: 500px;
+    margin-left: 620px;
+    height:32px;
+    width: 95px;
+    border-radius: 30px;
+    background-image: linear-gradient(rgb(29, 29, 53),white);
+    text-align: center;
+    font-weight: 100;
+    font-size: 17px;
+    color: black;
+}

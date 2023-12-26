@@ -1,0 +1,17 @@
+{% load static %}
+<html>
+<head>
+    <link rel="stylesheet" href="{% static "css/styleshet.css" %}">
+</head>
+<body>
+    <form action = "/insert" method="POST">
+        {% csrf_token %}
+       
+        <input type="text" name="name" placeholder="name" id="n1">
+        
+        <input type="text" name="time" placeholder="time" id="t1">
+        <input type="text" name="salary" placeholder="salary" id="s1">
+        <input type="submit" value="SUBMIT" id="su">
+        </form>
+</body>
+</html>

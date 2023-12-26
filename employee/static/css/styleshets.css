@@ -1,0 +1,25 @@
+body{
+    background-image: url("../images/second.jpg");
+    background-repeat: no-repeat;
+    background-size: 1365px 650px;
+}
+table{
+    position: fixed;
+    margin-top: 95px;
+    margin-left: 445px;
+    width:440px;
+    text-align: center;
+}
+th,td{
+    color: #fff;
+}
+a{
+    color: #f30707;
+    text-decoration: none;
+}
+#a1{
+    color: rgb(0, 162, 255);
+    position: fixed;
+    margin-top: 290px;
+    margin-left: 650px;
+}

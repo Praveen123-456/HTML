@@ -1,0 +1,17 @@
+{% load static %}
+<html>
+<head>
+    <link rel="stylesheet" href="{% static 'css/styleshet.css' %}">
+</head>
+<body>
+    <form action = "/edit/{{upd.id}}" method="POST">
+        {% csrf_token %}
+       
+        <input type="text" name="name" value={{upd.name}} id="n1">
+        
+        <input type="text" name="time"  value={{upd.time}} id="t1" >
+        <input type="text" name="salary"  value={{upd.salary}} id="s1">
+        <input type="submit" value="Submit" id="su">
+        </form>
+</body>
+</html>
